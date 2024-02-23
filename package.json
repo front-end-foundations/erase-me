@@ -1,0 +1,14 @@
+{
+  "name": "flexnav",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync app -w"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^3.0.2"
+  }
+}

@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  background-color: #ffcb2d;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  padding: 6px 10px;
+}
+
+nav a:hover,
+nav .active {
+  color: #fff;
+  background: rgb(240, 31, 31);
+  border-radius: 4px;
+}
+
+.content {
+  padding: 1rem;
+}
+
+/* [href="#reviews"] {
+  color: red;
+} */
+
+/* [class="content"] {
+  color: red;
+} */
+
+@media (min-width: 460px) {
+  nav ul {
+    justify-content: flex-start;
+    gap: 2rem;
+    padding-left: 1rem;
+  }
+}

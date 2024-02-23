@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  background-color: #ffcb2d;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  padding: 6px 10px;
+}
+
+nav a:hover,
+nav .active {
+  color: #fff;
+  background: rgb(240, 31, 31);
+  border-radius: 4px;
+}
+
+.content {
+  padding: 1rem;
+  max-width: 480px;
+}
+
+@media (min-width: 460px) {
+  nav ul {
+    padding-left: 1rem;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+}
